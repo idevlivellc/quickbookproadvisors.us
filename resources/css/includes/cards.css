@@ -1,0 +1,90 @@
+.image-card {
+    padding: 1rem;
+    -webkit-box-shadow:
+        0 24px 38px 3px rgba(0, 0, 0, 0.14),
+        0 9px 46px 8px rgba(0, 0, 0, 0.12),
+        0 11px 15px -7px rgba(0, 0, 0, 0.2);
+    box-shadow:
+        0 24px 38px 3px rgba(0, 0, 0, 0.14),
+        0 9px 46px 8px rgba(0, 0, 0, 0.12),
+        0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.image-card.with-content {
+    position: relative;
+}
+
+.image-card.with-content > .content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    box-shadow: none;
+    border: 2px solid #eeeeee;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+@media (min-width: 780px) {
+    .contact-card {
+        position: sticky;
+        top: 96px;
+    }
+}
+
+.steps-card {
+    width: fit-content;
+    max-width: 350px;
+    margin-inline: auto;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.steps-card:hover {
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+}
+
+.steps-card:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.steps-card:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: -28px;
+    left: 50%;
+    height: 20px;
+    width: 20px;
+    transform: translateX(-50%);
+    background-image: url("/public/images/icons/steps.svg");
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.blog-card .card {
+    padding: 1rem;
+    border-color: #ffffff;
+    transition: 0.4s;
+}
+
+.blog-card .card:hover {
+    border-color: #eeeeee;
+}
+
+.blog-card img {
+    border-radius: 4px;
+}
+
+.testimonial-wrapper .card {
+    height: 100%;
+}

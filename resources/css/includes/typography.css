@@ -1,0 +1,156 @@
+a {
+    text-decoration: none !important;
+    color: #039be5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--header-font);
+    color: #212121;
+    font-weight: 400;
+}
+
+h1 {
+    letter-spacing: 2px;
+    /* font-size: 3.56rem; */
+    /* line-height: 110%; */
+    /* margin: 2.3733333333rem 0 1.424rem 0; */
+}
+
+.center-align {
+    text-align: center;
+}
+
+.white-text {
+    color: white !important;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    line-height: 120%;
+    margin: 1.52rem 0 0.912rem;
+}
+
+.text-h1 {
+    font-size: 3.56rem;
+    line-height: 110%;
+    margin: 2.3733333333rem 0 1.424rem 0;
+}
+
+.text-h4 {
+    font-size: 2.28rem;
+    line-height: 110%;
+    margin: 1.52rem 0 0.912rem;
+}
+
+.text-h5 {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 1.0933333333rem 0 0.656rem 0;
+}
+
+.text-h6 {
+    font-size: 1rem;
+    line-height: 110%;
+    margin: 2rem 0 0.656rem 0;
+}
+
+p {
+    color: #616161;
+    line-height: 1.5;
+    margin-block: 1rem;
+}
+
+.text-xs {
+    font-size: 0.75rem !important;
+    line-height: calc(1 / 0.75) !important;
+}
+
+.text-sm {
+    font-size: 0.875rem !important;
+    line-height: calc(1.25 / 0.875) !important;
+}
+
+.text-base {
+    font-size: 1rem;
+    line-height: calc(1.5 / 1);
+}
+
+.header-font {
+    color: #212121 !important;
+    font-family: var(--header-font);
+}
+
+.grey-text {
+    color: #616161;
+}
+
+section.primary h1,
+section.primary h2,
+section.primary h3,
+section.primary h4,
+section.primary h5,
+section.primary h6,
+section.primary p {
+    color: white !important;
+}
+
+footer.page-footer p.header-font {
+    color: white !important;
+    text-decoration: underline;
+}
+
+footer.page-footer p,
+footer.page-footer ul li,
+footer.page-footer ul li a {
+    color: #eeeeee;
+}
+
+footer.page-footer ul li,
+footer.page-footer ul li a {
+    font-size: 0.875rem;
+}
+
+footer.page-footer ul li:not(:last-child) {
+    margin-bottom: 0.5rem !important;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.truncate-2 {
+    display: -webkit-box;
+    line-clamp: 2;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.truncate-3 {
+    display: -webkit-box;
+    line-clamp: 3;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.dark-text {
+    color: #212121;
+}

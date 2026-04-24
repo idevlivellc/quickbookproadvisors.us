@@ -1,0 +1,56 @@
+@import url("includes/buttons.css");
+@import url("includes/cards.css");
+@import url("includes/flex.css");
+@import url("includes/input.css");
+@import url("includes/layout.css");
+@import url("includes/lists.css");
+@import url("includes/navbar.css");
+@import url("includes/typography.css");
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../../public/fonts/Outfit.woff2") format("woff2");
+    font-weight: semi-bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "RadionB";
+    src: url("../../public/fonts/RadionB.woff2") format("woff2");
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --header-font: "RadionB", sans-serif;
+    --body-font: "Outfit", sans-serif;
+    --primary: #1f7a6b;
+    --primary-dark: #004d40;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Outfit", sans-serif; */
+    /* font-weight: 500; */
+}
+
+html {
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    /* font-weight: 500; */
+    letter-spacing: 1px;
+    line-height: 1.7;
+}
+
+.divider {
+    height: 1px;
+    overflow: hidden;
+    background-color: #e0e0e0;
+}
+
+.primary {
+    background-color: var(--primary) !important;
+}
