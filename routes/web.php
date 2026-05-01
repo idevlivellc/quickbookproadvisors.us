@@ -1,10 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ChargeblastController;
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 
 Route::view("/", "home", [
 	"title" => "QuickBooks Bookkeeping & Accounting for Small Businesses"
@@ -80,3 +78,5 @@ Route::prefix("policies")->group(function () {
 Route::get("buy-quickbooks", function () {
 	return "<h1>Coming Soon</h1>";
 });
+
+Route::get("chargeblast-alert", [ChargeblastController::class, "disputeAlert"]);

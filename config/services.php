@@ -35,4 +35,13 @@ return [
         ],
     ],
 
+    "telegram" => [
+        "bot_token" => env("CHARGEBLAST_TELEGRAM_BOT_TOKEN"),
+        "chat_id" => env("TELEGRAM_CHAT_ID")
+    ],
+
+    "chargeblast" => [
+        "webhook_secret" => env("CHARGEBLAST_WEBHOOK_SECRET")
+    ]
+
 ];
