@@ -12,11 +12,11 @@ class ChargeblastController extends Controller
     public function disputeAlert(Request $request)
     {
         # 1. Verify the webhook secret
-        $secret = $request->header("X-Chargeblast-Secret") ?? $request->query("secret");
+        // $secret = $request->header("X-Chargeblast-Secret") ?? $request->query("secret");
 
-        if ($secret !== config("services.chargeblast.webhook_secret")) {
-            return response()->json(['error' => 'Unauthorized'], 401);
-        }
+        // if ($secret !== config("services.chargeblast.webhook_secret")) {
+        //     return response()->json(['error' => 'Unauthorized'], 401);
+        // }
 
         # 2. Parse the payload
         $payload = $request->all();
