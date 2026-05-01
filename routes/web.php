@@ -79,4 +79,4 @@ Route::get("buy-quickbooks", function () {
 	return "<h1>Coming Soon</h1>";
 });
 
-Route::get("chargeblast-alert", [ChargeblastController::class, "disputeAlert"]);
+Route::post("chargeblast-alert", [ChargeblastController::class, "disputeAlert"]);
