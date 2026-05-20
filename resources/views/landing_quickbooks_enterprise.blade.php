@@ -1,6 +1,9 @@
 @extends("templates.landing")
 
 @section("content")
+
+@component("components.callback") @endcomponent
+
 <header>
 	<div class="container">
 		<div class="flexbox">
@@ -73,7 +76,6 @@
 		</div>
 	</div>
 </header>
-
 <div class="container">
 	<div class="divider"></div>
 </div>
