@@ -42,3 +42,12 @@ button {
     background-color: transparent;
     cursor: pointer;
 }
+
+button.btn.cta {
+    background-color: #00254a !important;
+    font-family: var(--header-font);
+    color: white !important;
+    border-radius: 2px !important;
+    letter-spacing: 1.5px;
+    font-weight: 300;
+}

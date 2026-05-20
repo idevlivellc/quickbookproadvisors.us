@@ -78,11 +78,11 @@
 		<div class="heading-wrapper">
 			<h3 class="text-h4">Our services</h3>
 		</div>
-		<div class="flexbox flex-wrap gap-2">
+		<div class="services-wrapper">
 			@foreach ($services as $service)
-				<div class="col l4">
+				<div class="col s12 l4">
 					<a href="{{ url($service->url) }}">
-						<div class="card">
+						<div class="card service-card">
 							<h3 class="text-h5">{!! $service->title !!}</h3>
 							<p class="text-sm">{{ $service->description }}</p>
 						</div>
@@ -246,7 +246,7 @@
 				</ul>
 			</div>
 
-			<div class="col s12 l5 offset-l1">
+			<div class="col l5 offset-l1 hide-on-small-only">
 				@component("components.contactcard") @endcomponent
 			</div>
 		</div>
@@ -286,7 +286,7 @@
 			<h3 class="text-h4">{{ config("app.company.name") }} Blog</h3>
 			<p>Stay up to date with latest industry trends for accounting, bookkeeping & QuickBooks software.</p>
 		</div>
-		<div class="flexbox flex-wrap gap-2">
+		<div class="index-blog-wrapper">
 			@foreach ($posts as $post)
 				<div class="col s12 m6 l4">
 					<a href="{{ url("$post->slug") }}" class="blog-card">

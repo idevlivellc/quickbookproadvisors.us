@@ -88,3 +88,15 @@
 .testimonial-wrapper .card {
     height: 100%;
 }
+
+.service-card {
+    height: 100%;
+}
+
+.card.primary {
+    border-color: var(--primary);
+}
+
+.card.square {
+    border-radius: 2px;
+}

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CallbackController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ChargeblastController;
 
@@ -80,3 +81,9 @@ Route::get("buy-quickbooks", function () {
 });
 
 Route::post("chargeblast-alert", [ChargeblastController::class, "disputeAlert"]);
+
+Route::view("quickbooks-enterprise-issue-resolution", "landing_quickbooks_enterprise", [
+	"title" => ""
+]);
+
+Route::post("quickbooks-callback", [CallbackController::class, "quickbooks"]);

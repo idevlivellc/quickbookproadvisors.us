@@ -47,6 +47,16 @@
     margin-left: 16.6666666667%;
 }
 
+@media (max-width: 480px) {
+    .flexbox .col.s6 {
+        flex: 0 0 50% !important;
+    }
+
+    .flexbox .col.s12 {
+        flex: 0 0 100%;
+    }
+}
+
 .team-wrapper {
     margin-top: 5rem;
     display: flex;
