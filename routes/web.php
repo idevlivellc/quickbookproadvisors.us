@@ -83,7 +83,7 @@ Route::get("buy-quickbooks", function () {
 Route::post("chargeblast-alert", [ChargeblastController::class, "disputeAlert"]);
 
 Route::view("quickbooks-enterprise-issue-resolution", "landing_quickbooks_enterprise", [
-	"title" => ""
+	"title" => "QuickBooks Enterprise Issue Resolution for Businesses"
 ]);
 
 Route::post("quickbooks-callback", [CallbackController::class, "quickbooks"]);
