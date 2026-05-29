@@ -7,13 +7,13 @@
 <header>
 	<div class="container">
 		<div class="flexbox">
-			<div class="col s12 l6">
+			<div class="col s12 l6 center-on-small-only">
 				<h1>QuickBooks Enterprise Issue Resolution for Businesses</h1>
 				<p>We help businesses diagnose and resolve QuickBooks Enterprise problems through structured troubleshooting and best-practice fixes.</p>
 
 				<p class="flexbox items-center" style="gap: 1rem; margin-top: 2rem;">
 					<img src="{{ asset("images/icons/hard-disk.svg") }}" alt="hard disk icon" height="24" width="24">
-					Experience with large QuickBooks Enterprise files
+					Experience with QuickBooks Enterprise
 				</p>
 				<p class="flexbox items-center" style="gap: 1rem;">
 					<img src="{{ asset("images/icons/supervisor-account.svg") }}" alt="supoervisor account icon" height="24" width="24">
@@ -29,14 +29,16 @@
 					Third-party QuickBooks consultants
 				</p>
 
-				<div class="card primary square center-align" style="margin-block: 2rem">
-					<h5 class="hide-on-small-only" style="color: #ffffff !important; font-size: 1.2rem">
+				<div class="card primary square center-align hide-on-small-only" style="margin-block: 2rem">
+					<h5 style="color: #ffffff !important; font-size: 1.2rem">
 						Prefer to speak with a QuickBooks consultant?
 					</h5>
-					<h5 class="hide-on-small-only text-h5" style="color: #ffffff !important">
+					<h5 class="text-h5" style="color: #ffffff !important">
 						Call {{ config("app.company.phone") }}
 					</h5>
 				</div>
+
+				<a href="tel:{{ config("app.company.phone") }}" class="btn-large primary full-width hide-on-med-and-up center-align" style="margin-top: 2rem;">Call {{ config("app.company.phone") }}</a>
 			</div>
 			<div class="col s12 l5 offset-l1">
 				<div class="card">
