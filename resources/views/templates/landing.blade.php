@@ -161,5 +161,12 @@
 	alt="Web Analytics Made Easy - Statcounter"
 	referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 	<!-- End of Statcounter Code -->
+
+	@if(session('form_submitted'))
+	<!-- Event snippet for Submit Callback Form conversion page -->
+	<script>
+	gtag('event', 'conversion', {'send_to': 'AW-18160661655/yafFCMHJiLocEJfp1tND'});
+	</script>
+	@endif
 </body>
 </html>
