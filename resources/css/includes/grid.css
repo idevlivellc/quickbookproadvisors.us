@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+}
+
+.symptoms-wrapper {
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.symptoms-wrapper .card {
+    height: 200px;
+}
+
+.possible-causes-wrapper {
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.how-we-help-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.how-we-help-wrapper .card {
+    height: 100%;
+}

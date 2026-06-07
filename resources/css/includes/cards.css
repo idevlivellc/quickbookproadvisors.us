@@ -100,3 +100,18 @@
 .card.square {
     border-radius: 2px;
 }
+
+.steps-card-left {
+    border-color: white;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
+
+.steps-card-left:hover {
+    background-color: #eeeeee;
+}
+
+.steps-card-left.active {
+    background-color: #e0e0e0;
+}

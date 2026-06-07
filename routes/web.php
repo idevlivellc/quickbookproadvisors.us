@@ -86,4 +86,8 @@ Route::view("quickbooks-enterprise-issue-resolution", "landing_quickbooks_enterp
 	"title" => "QuickBooks Enterprise Issue Resolution for Businesses"
 ]);
 
+Route::view("quickbooks-6000-series-errors", "landing_quickbooks_6000", [
+	"title" => "QuickBooks Error 6000: Causes, Symptoms & Troubleshooting"
+]);
+
 Route::post("quickbooks-callback", [CallbackController::class, "quickbooks"]);
