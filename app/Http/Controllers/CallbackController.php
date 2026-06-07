@@ -48,7 +48,8 @@ class CallbackController extends Controller
         $this->sendTelegram($text);
 
         return back()->with([
-            "success" => "Callback request submitted! A support representative will call you now."
+            "success" => "Callback request submitted! A support representative will call you now.",
+            "form_submitted" => true
         ]);
     }
 
