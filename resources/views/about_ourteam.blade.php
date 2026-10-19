@@ -33,11 +33,11 @@
 				<p class="header-font">Christy P.</p>
 				<p class="text-sm">Sales Head & CMO</p>
 			</div>
-			<div class="card">
+			{{-- <div class="card">
 				<img src="{{ asset("images/team/sayan-das.jpg") }}" alt="kevin parker" class="circle">
 				<p class="header-font">Christy P.</p>
 				<p class="text-sm">Founder & CEO</p>
-			</div>
+			</div> --}}
 		</div>
 	</div>
 </section>
